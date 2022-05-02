@@ -1,0 +1,54 @@
+body{
+    color:aliceblue;
+}
+section{
+    text-align:center;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex2{ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.flex2 > div{
+    flex: 1 1;
+    margin: 10px;
+}
+
+.titulo{
+    font-family: Baskerville Bold;
+}
+.subtitulo{
+    font-family: AppleMyungjo;
+}
+
+footer {
+    margin-top: 50px;
+    text-align:center;
+}
+
+.bloco{
+    background-color:rgb(186, 186, 186);
+    text-align: left;
+    color: black;
+    margin: 0px 10%;
+}
+
+.vtitulo{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: Baskerville Bold;
+}
+.vtexto{
+    padding: 0px 10px 0px 10px;
+    font-family: Helvetica;
+    font-size: 40px;
+}
