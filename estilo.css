@@ -11,6 +11,12 @@ img {
 
 .flex{
     display: flex;
+    flex-wrap: wrap;
+
+}
+.flex > div{
+    flex: 1 1 200px;
+    margin: 15px;
 }
 
 .flex2{ 
@@ -36,10 +42,12 @@ footer {
 }
 
 .bloco{
-    background-color:rgb(186, 186, 186);
+    background-color:rgb(232, 226, 226);
     text-align: left;
     color: black;
-    margin: 0px 10%;
+    margin: 10px 10%;
+    border-radius: 6px;
+
 }
 
 .vtitulo{
@@ -51,4 +59,15 @@ footer {
     padding: 0px 10px 0px 10px;
     font-family: Helvetica;
     font-size: 40px;
+    text-align: justify;
+}
+blockquote{
+    font-family: Alegreya;
+    background-color: rgb(33,37,41);
+    margin: 0px;
+    height: 30px;
+    
+}
+.borda{
+    margin: 10px;
 }
