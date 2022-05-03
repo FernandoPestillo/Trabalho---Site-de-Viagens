@@ -61,6 +61,13 @@ footer {
     font-size: 40px;
     text-align: justify;
 }
+.vsubtitulo{
+    font-family: Libre Bodoni;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 blockquote{
     font-family: Alegreya;
     background-color: rgb(33,37,41);
